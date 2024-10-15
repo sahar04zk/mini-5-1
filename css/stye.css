@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#dbceb8 ;
+    font-family: byekan;
+}
+@font-face{
+    font-family:"byekan";
+    src:url('../font/Byekan.ttf') format('truetype'),
+        url('../font/Byekan.woff') format('woff');
+}
+.container{
+    width:750px;
+    height: 450px;
+    margin:170px auto;
+    box-shadow: 0 0 15px #383735;
+    border-radius: 10px 25px 10px 25px;
+    position: relative;
+}
+.box1{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 15px #383735;
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+    position: absolute;
+    top:-35px;
+    right: 35px;
+}
+.box1 img{
+    width: 100%;
+}
+.box1 p{
+    padding-right: 15px;
+    margin:15px;
+}
+.p1{
+    text-align: justify;
+    width:300px;
+    height: 300px;
+    position: absolute;
+    top:40px;
+    left:50px;
+}
